@@ -15,7 +15,6 @@ git clone https://github.com/hmofrad/CryptoEnclave
 
 ## Install CryptoEnclave app:
 ~~~~
-# First install linux-sgx sdk on your machine.
 make clean && make
 ~~~~
 
