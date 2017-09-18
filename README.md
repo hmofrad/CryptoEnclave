@@ -18,12 +18,12 @@
 
 ## Install CryptoEnclave app:
 ~~~~
-make clean && make SGX_MODE=SIM
+    make clean && make SGX_MODE=SIM
 ~~~~
 
 ## Run CryptoEnclave app:
 ~~~~
-./app -a <sha256|hmac_sha256|aes_ecb|aes_cbc> [-userkey|-randomkey <key|keylen>] -intext|-infile <input>
+    ./app -a <sha256|hmac_sha256|aes_ecb|aes_cbc> [-userkey|-randomkey <key|keylen>] -intext|-infile <input>
 ~~~~
 
 ## Test CryptoEnclave app:	
