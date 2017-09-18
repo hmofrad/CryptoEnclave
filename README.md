@@ -105,4 +105,5 @@ make clean && make
 	~~~~
 
 ## Contact
+
 (c) Mohammad Hasanzadeh-Mofrad, 2017
