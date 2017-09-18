@@ -111,6 +111,6 @@
 
 ## Contact
 ~~~
-    (c) Mohammad H. Mofrad, 2017
+    (c) Mohammad Hasanzadeh-Mofrad, 2017
     (e) mohammad.hmofrad@pitt.edu
 ~~~
