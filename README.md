@@ -32,7 +32,7 @@ make clean && make
 	
 	* Input file (~200mb)
 	~~~~
-	./app -a sha256 -infile gutenberg/out.txt
+	./app -a sha256 -infile input.txt
 	# Verify the result at https://md5file.com/calculator
 	~~~~
 
@@ -51,18 +51,18 @@ make clean && make
 
 	* Input file + input key (~100mb)
 		~~~~
-		./app -a hmac_sha256 -userkey "password" -infile gutenberg/out1.txt
+		./app -a hmac_sha256 -userkey "password" -infile input.txt
 		# Verify results at http://hash.online-convert.com/sha256-generator
 		~~~~
 
 	* Input file + input key (~200mb)
 		~~~~
-		./app -a hmac_sha256 -userkey "password" -infile gutenberg/out.txt
+		./app -a hmac_sha256 -userkey "password" -infile input.txt
 		~~~~
 		
 	* Input text + random key (~200mb)
 		~~~~
-		./app -a hmac_sha256 -randomkey 8 -infile gutenberg/out.txt
+		./app -a hmac_sha256 -randomkey 8 -infile input.txt
 		~~~~
 
 * TEST#3: AES ECB 128|192|256
@@ -75,13 +75,13 @@ make clean && make
 	
 	* Input file + random key (16|24|32)
 	~~~~
-	./app -a aes_ecb -randomkey 16 -infile gutenberg/4300-0.txt
+	./app -a aes_ecb -randomkey 16 -infile input.txt
 	Verify the result at http://aes.online-domain-tools.com/
 	~~~~
 	
 	* Input file + random key (16|24|32) (~200mb)
 	~~~~
-	./app -a aes_ecb -randomkey 16 -infile gutenberg/out.txt
+	./app -a aes_ecb -randomkey 16 -infile input.txt
 	~~~~
 
 
@@ -95,13 +95,13 @@ make clean && make
 	
 	* Input file + random key (16|24|32)
 	~~~~
-	./app -a aes_ecb -randomkey 16 -infile gutenberg/4300-0.txt
+	./app -a aes_ecb -randomkey 16 -infile input.txt
 	# Verify the result at http://aes.online-domain-tools.com/
 	~~~~
 
 	* Input file + random key (16|24|32) (~200mb)
 	~~~~
-	./app -a aes_ecb -randomkey 16 -infile gutenberg/out.txt
+	./app -a aes_ecb -randomkey 16 -infile input.txt
 	~~~~
 
 ## Contact
