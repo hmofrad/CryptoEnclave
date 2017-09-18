@@ -1,7 +1,7 @@
 ## Install CryptoEnclave app:
 ~~~~
 # First install linux-sgx sdk on your machine.
-make clean && make
+make clean && make SGX_MODE=SIM
 ~~~~
 
 ## Run CryptoEnclave app:
