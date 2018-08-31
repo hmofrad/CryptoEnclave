@@ -114,3 +114,11 @@
     (c) Mohammad Hasanzadeh-Mofrad, 2017
     (e) mohammad.hmofrad@pitt.edu
 ~~~
+
+## Reference
+~~~
+    Mohammad Hasanzadeh Mofrad, and Adam Lee. 
+    "Leveraging Intel SGX to Create a Nondisclosure Cryptographic library." 
+    arXiv preprint  arXiv:1705.04706, 2017.
+    (https://arxiv.org/abs/1705.04706)
+~~~
